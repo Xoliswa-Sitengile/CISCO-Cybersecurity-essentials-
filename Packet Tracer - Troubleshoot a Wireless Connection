@@ -1,0 +1,55 @@
+Detailed Documentation: Packet Tracer - Troubleshoot a Wireless Connection
+Overview
+This project demonstrates the process of troubleshooting a wireless connection using Cisco Packet Tracer. The activity emphasizes identifying, diagnosing, and resolving wireless connectivity issues while highlighting best practices and common tools.
+
+Objectives
+Identify and resolve wireless connectivity issues on a laptop.
+Access a wireless router to verify and modify its configuration.
+Connect a laptop to a wireless network using WPA2-PSK security.
+Develop a systematic approach to troubleshooting network problems.
+
+Steps Performed
+1. Identify Laptop Wireless Issues
+Used ping and tracert commands to verify connectivity and trace the network path to the destination.
+Navigated to a web page to confirm the network was inaccessible.
+2. Discover the Wireless Router's IP Address
+Opened the command prompt on the laptop and used the ipconfig command to determine the default gateway address.
+3. Access the Wireless Router
+Logged into the wireless router using the default gateway IP address.
+Verified configurations, including wireless security settings and device status.
+4. Resolve Configuration Issues
+Corrected misconfigurations in the wireless router settings, such as enabling WPA2-PSK security and updating the passphrase.
+Modified laptop wireless settings to connect to the secured network using the updated credentials.
+5. Validate Connection
+Retested connectivity by accessing a web page and confirming successful connection to the network.
+Reflection and Learning
+Key Questions and Answers
+1. How did you discover the IP address of the wireless router?
+
+Used the ipconfig command on the command prompt to find the default gateway address.
+2. What is the difference between using the ping command and the tracert command?
+
+The ping command verifies if the destination is reachable and measures response time, while the tracert command traces the path to the destination, providing details about intermediate devices.
+3. Why is it important to change the default username and password for a wireless router?
+
+Default credentials are publicly available and pose a significant security risk if not changed.
+4. How do you feel about the troubleshooting process?
+
+Troubleshooting can initially feel complex, but a systematic approach makes it manageable and rewarding as it builds confidence and problem-solving skills.
+5. What did you learn about your troubleshooting process?
+
+Systematic and organized troubleshooting greatly improves efficiency. Practice and reading about troubleshooting techniques enhance this skill.
+Tools and Commands Used
+Command Prompt: ipconfig, ping, tracert
+Cisco Packet Tracer: Wireless configuration and diagnostics
+Web Browser: Verifying connectivity
+Learning Outcomes
+Developed a structured approach to troubleshooting.
+Gained practical experience with wireless security settings, including WPA2-PSK.
+Improved familiarity with diagnostic tools like ping and tracert.
+Understood the importance of securing network devices and modifying default credentials.
+Reflection and Feedback
+This activity reinforced the importance of methodical problem-solving in networking. It highlighted the need to balance technical skills with logical reasoning to resolve issues effectively.
+
+
+
